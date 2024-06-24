@@ -1,0 +1,68 @@
+<!DOCTYPE Student [
+        <!ELEMENT Student (StudentId, StudentName, age, Subjects)>
+        <!ELEMENT StudentId (#PCDATA)>
+        <!ELEMENT StudentName (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        <!ELEMENT Subjects (Subject*)>
+        <!ELEMENT Subject (SubjectID, SubjectName, Grade)>
+        <!ELEMENT SubjectID (#PCDATA)>
+        <!ELEMENT SubjectName (#PCDATA)>
+        <!ELEMENT Grade (#PCDATA)>
+        ]>
+<Student>
+    <StudentId>55555</StudentId>
+    <StudentName>Jonas Jonaitis</StudentName>
+    <age>20</age>
+    <Subjects>
+        <Subject>
+            <SubjectID>1</SubjectID>
+            <SubjectName>Matematika</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+        <Subject>
+            <SubjectID>2</SubjectID>
+            <SubjectName>Fizika</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+        <Subject>
+            <SubjectID>3</SubjectID>
+            <SubjectName>Chemija</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+        <Subject>
+            <SubjectID>4</SubjectID>
+            <SubjectName>Geografija</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+        <Subject>
+            <SubjectID>5</SubjectID>
+            <SubjectName>Daile</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+        <Subject>
+            <SubjectID>6</SubjectID>
+            <SubjectName>Muzika</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+        <Subject>
+            <SubjectID>7</SubjectID>
+            <SubjectName>Muzika</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+        <Subject>
+            <SubjectID>8</SubjectID>
+            <SubjectName>Istorija</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+        <Subject>
+            <SubjectID>9</SubjectID>
+            <SubjectName>Biologija</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+        <Subject>
+            <SubjectID>10</SubjectID>
+            <SubjectName>Anglų kalba</SubjectName>
+            <Grade>10</Grade>
+        </Subject>
+    </Subjects>
+</Student>
